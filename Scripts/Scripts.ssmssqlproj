@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01 - Setup.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>01 - Setup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02 - Message Types.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>02 - Message Types.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03 - Contracts.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>03 - Contracts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04 - Queues.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>04 - Queues.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05 - Services.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>05 - Services.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06 - Begin Dialog.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>06 - Begin Dialog.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07 - Send Message.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>07 - Send Message.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08 - Select Messages.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>08 - Select Messages.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09 - Receive Message.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>09 - Receive Message.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10 - Request Response.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>10 - Request Response.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
