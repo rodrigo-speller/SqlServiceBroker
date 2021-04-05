@@ -1,4 +1,4 @@
-/* Código 1 – Iniciando o Diálogo entre os Serviços */
+ï»¿/* CÃ³digo 1 â€“ Iniciando o DiÃ¡logo entre os ServiÃ§os */
 USE MyDatabaseServiceBroker
 GO
 
@@ -6,10 +6,10 @@ Declare @MyConversationHandle Uniqueidentifier
 
 Begin Transaction
 
--- Iniciando um novo diálogo entre os serviços da sOrigem e sDestino –
-BEGIN DIALOG  @MyConversationHandle 
-	FROM SERVICE    [sOrigem]
-	TO SERVICE      'sDestino'
-	ON CONTRACT     [cProcessaMensagens]
+-- Iniciando um novo diÃ¡logo entre os serviÃ§os da sOrigem e sDestino â€“
+BEGIN DIALOGÂ  @MyConversationHandle 
+	FROM SERVICEÂ Â Â  [sOrigem]
+	TO SERVICEÂ Â Â Â Â  'sDestino'
+	ON CONTRACTÂ Â Â Â  [cProcessaMensagens]
 	WITH ENCRYPTION = OFF,
 	LIFETIME = 600;

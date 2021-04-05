@@ -1,4 +1,4 @@
-/* Código 3 – Localizando – Mensagem */
+ï»¿/* CÃ³digo 3 â€“ Localizando â€“ Mensagem */
 USE MyDatabaseServiceBroker
 GO
 

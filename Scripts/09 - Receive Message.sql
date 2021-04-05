@@ -1,4 +1,4 @@
-/* Código 2 – Realizando a Leitura e Recebimento de Dados */
+ï»¿/* CÃ³digo 2 â€“ Realizando a Leitura e Recebimento de Dados */
 USE MyDatabaseServiceBroker
 GO
  
@@ -6,7 +6,7 @@ Declare @MyConversationHandle UniqueIdentifier,
 @MyMessage_Body XML,
 @MyMessage_Type_Name sysname;
  
-/* Iniciando o Bloco de Transação */
+/* Iniciando o Bloco de TransaÃ§Ã£o */
 Begin Transaction;
  
 /* Realizando o Recebimento da Mensagem */
@@ -19,5 +19,5 @@ RECEIVE TOP(1)
 /* Apresentando o Retorno da Mensagem */
 SELECT @MyMessage_Body As MyMessage
  
-/* Confirmando o Bloco de Transação */
+/* Confirmando o Bloco de TransaÃ§Ã£o */
 Commit

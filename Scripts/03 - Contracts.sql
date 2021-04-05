@@ -1,4 +1,4 @@
-/* Código 2 – Criando contrato e definido o Target e Initiator */
+ï»¿/* CÃ³digo 2 â€“ Criando contrato e definido o Target e Initiator */
 Use MyDatabaseServiceBroker
 Go
  

@@ -1,17 +1,17 @@
--- Código 1 – Criando o Banco de Dados MyDatabaseServiceBroker
+ï»¿-- CÃ³digo 1 â€“ Criando o Banco de Dados MyDatabaseServiceBroker
 Use Master
 Go
  
-/* 1 – Criação do banco de dados */
+/* 1 â€“ CriaÃ§Ã£o do banco de dados */
 CREATE DATABASE MyDatabaseServiceBroker
 Go
  
-/* 2 – Ativação do recurso de Service Broker */
+/* 2 â€“ AtivaÃ§Ã£o do recurso de Service Broker */
 ALTER DATABASE MyDatabaseServiceBroker 
 SET ENABLE_BROKER
 Go
  
-/* 3- Verificação do Status */
+/* 3- VerificaÃ§Ã£o do Status */
 SELECT Name, is_broker_enabled 
 FROM sys.databases
 WHERE Name = 'MyDatabaseServiceBroker'

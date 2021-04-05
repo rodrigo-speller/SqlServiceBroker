@@ -1,4 +1,4 @@
-/* Código 3 – Criando as Filas qOrigem e qDestino */
+ï»¿/* CÃ³digo 3 â€“ Criando as Filas qOrigem e qDestino */
 Use MyDatabaseServiceBroker
 Go
 

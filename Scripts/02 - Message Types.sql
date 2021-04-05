@@ -1,4 +1,4 @@
-/* Código 1 – Criando os Tipos de Mensagens */
+ï»¿/* CÃ³digo 1 â€“ Criando os Tipos de Mensagens */
 Use MyDatabaseServiceBroker
 Go
  

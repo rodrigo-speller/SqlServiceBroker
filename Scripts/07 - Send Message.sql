@@ -1,4 +1,4 @@
-/* CÛdigo 2 ñ Criando e Enviando a Mensagem */
+Ôªø/* C√≥digo 2 ‚Äì Criando e Enviando a Mensagem */
 USE MyDatabaseServiceBroker
 GO
  
@@ -6,7 +6,7 @@ Declare @MyConversationHandle Uniqueidentifier
  
 Begin Transaction
  
-/* Inicia um di·logo entre os serviÁos da origem e destino */
+/* Inicia um di√°logo entre os servi√ßos da origem e destino */
  
 BEGIN DIALOG  @MyConversationHandle
 	FROM SERVICE    [sOrigem]
@@ -15,15 +15,15 @@ BEGIN DIALOG  @MyConversationHandle
 	WITH ENCRYPTION = OFF,
 	LIFETIME = 600;
  
-/* Declarando a Estrutura e Conte˙do da Mensagem */
+/* Declarando a Estrutura e Conte√∫do da Mensagem */
 Declare @MyMensagemServiceBroker XML
  
-SET @MyMensagemServiceBroker = N'<!--?xml version=î1.0??-->
+SET @MyMensagemServiceBroker = N'<!--?xml version=‚Äù1.0??-->
 Minha mensagem
-Ol· esta È uma mensagem de teste no Service Broker';
+Ol√° esta √© uma mensagem de teste no Service Broker';
  
  
-/* Enviando uma mensagem no Di·logo */
+/* Enviando uma mensagem no Di√°logo */
 SEND ON CONVERSATION @MyConversationHandle
 MESSAGE TYPE [mtEnvioMensagem] (@MyMensagemServiceBroker)
 Commit Transaction
